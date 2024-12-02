@@ -23,7 +23,9 @@
     <section class="container">
       <div class="container search-box">
         <div class="row align-items-baseline">
-          <label class="col-12 col-md-4 col-lg-5 position-relative">
+          <label
+            class="col-12 col-md-4 col-lg-5 position-relative keyword text-center"
+          >
             <span>Business Keyword</span>
             <div class="position-relative">
               <i class="fa fa-search search-icon position-absolute"></i>
@@ -37,7 +39,7 @@
             </div>
           </label>
 
-          <label class="col-12 col-md-4 col-lg-5">
+          <label class="col-12 col-md-4 col-lg-5 keyword text-center">
             <span>Location/Pin-Code</span>
 
             <div class="position-relative">
@@ -106,7 +108,11 @@
             </tr>
           </tbody>
           <div class="loader" id="loader"></div>
-          <p id="results-found" class="mb-0">0 Results Found</p>
+          <!-- <p id="results-found" class="mb-0">0 Results Found</p> -->
+          <div class="flex items-center justify-center h-screen mb-3 mt-3">
+            <p id="results-found" class="text-center">0 Results Found</p>
+          </div>
+
           <!-- <div class="loader" id="loader"></div> -->
         </table>
       </div>
